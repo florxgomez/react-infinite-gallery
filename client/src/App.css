@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(160, 131, 177);
+  box-sizing: border-box;
+}
+.content h1 {
+  color: rgb(227, 211, 228);
+  text-shadow: 5px 1px 1px black;
+}
+
+.title {
+  font-family: 'Carter One';
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Optional style for fetched images */
+.images {
+  display: flex;
+  max-width: 80%;
+  margin: 2% auto;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.single-photo {
+  width: 200px;
+  height: 300px;
+  align-self: auto;
+  margin: 10px 10px;
+  flex-grow: 1;
+  vertical-align: middle;
+  border: 5px solid white;
+  border-bottom: 60px solid white;
+}
